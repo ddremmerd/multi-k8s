@@ -19,7 +19,7 @@ before_install:
 
 
 script:
-  - docker run -e CI=true USERNAME/react-test npm test
+  - docker run -e CI=true ddremmerd/react-test npm test
 
 deploy:
   provider: script 
